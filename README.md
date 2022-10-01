@@ -76,10 +76,8 @@ Use this to produce non-minified build for use in debugging within Cordova. It u
 
 ## :memo: Legal & licenses
 
-Copyright © 2017-2021, [OTTAA Project](https://ottaa-project.github.io/) & Cboard contributors.
-
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 as published by the Free Software Foundation.
 
-- Code - [GPLv3](https://github.com/cboard-org/cboard/blob/master/LICENSE.txt)
+- Code - [GPLv3](https://github.com/cboard-org/cboard/blob/master/LICENSE.txt](https://github.com/bwoinextdoor/iSpeechBoard)
 - Mulberry Symbols - [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - ARASAAC Symbols - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
