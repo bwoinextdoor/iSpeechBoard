@@ -14,8 +14,7 @@ The future scalling plans include : Mobile Apps, 50 Languages
 ## Translations
 
 Currently the app supports 40 languages.
-Languages were machine translated and require proofreading: if you want to help proofread, please use our translation management platform: https://crowdin.com/project/cboard
-
+Languages were machine translated and require proofreading: if you want to help proofread
 **You do not need to be a programmer!**
 
 Translations play a major role in this project and they contribute a lot for the inclusion of children, specially in non developed countries. Please consider collaborating with us!
