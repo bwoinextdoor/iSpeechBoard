@@ -45,8 +45,6 @@ By default, runs tests related to files changed since the last commit.
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-By default, it also [includes a service worker](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#making-a-progressive-web-app) so that iSpeechBoard loads from local cache on future visits.
 
 iSpeechBoard is ready to be deployed.
 
