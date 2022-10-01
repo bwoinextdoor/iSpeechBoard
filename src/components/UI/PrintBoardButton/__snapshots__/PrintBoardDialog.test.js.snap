@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintBoardDialog tests default renderer 1`] = `
+<ForwardRef(WithStyles(FullScreenDialog))
+  disableSubmit={true}
+  onClose={[Function]}
+  open={false}
+  title="PrintBoardDialog Title"
+>
+  <ForwardRef(WithStyles(ForwardRef(Paper)))>
+    <FullScreenDialogContent
+      className="PrintBoardDialog__container"
+    >
+      <ForwardRef(WithStyles(ForwardRef(List)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+          <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+            primary={
+              <FormattedMessage
+                defaultMessage="Print Board"
+                id="cboard.components.PrintBoardButton.printBoard"
+                values={Object {}}
+              />
+            }
+            secondary={
+              <FormattedMessage
+                defaultMessage="Print current board or full board set (it can take a while)."
+                id="cboard.components.PrintBoardButton.printBoardSecondary"
+                values={Object {}}
+              />
+            }
+          />
+        </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+          <ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+            <ForwardRef(WithStyles(ForwardRef(Button)))
+              color="primary"
+              disabled={false}
+              onClick={[Function]}
+              variant="contained"
+            >
+              <FormattedMessage
+                defaultMessage="Current Board"
+                id="cboard.components.PrintBoardButton.printCurrentBoard"
+                values={Object {}}
+              />
+            </ForwardRef(WithStyles(ForwardRef(Button)))>
+          </ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+        </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+      </ForwardRef(WithStyles(ForwardRef(List)))>
+    </FullScreenDialogContent>
+  </ForwardRef(WithStyles(ForwardRef(Paper)))>
+</ForwardRef(WithStyles(FullScreenDialog))>
+`;
+
+exports[`PrintBoardDialog tests loading renderer 1`] = `
+<ForwardRef(WithStyles(FullScreenDialog))
+  disableSubmit={true}
+  onClose={[Function]}
+  open={true}
+  title="PrintBoardDialog Title"
+>
+  <ForwardRef(WithStyles(ForwardRef(Paper)))>
+    <FullScreenDialogContent
+      className="PrintBoardDialog__container"
+    >
+      <ForwardRef(WithStyles(ForwardRef(List)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+          <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+            primary={
+              <FormattedMessage
+                defaultMessage="Print Board"
+                id="cboard.components.PrintBoardButton.printBoard"
+                values={Object {}}
+              />
+            }
+            secondary={
+              <FormattedMessage
+                defaultMessage="Print current board or full board set (it can take a while)."
+                id="cboard.components.PrintBoardButton.printBoardSecondary"
+                values={Object {}}
+              />
+            }
+          />
+        </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+          <ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+            <ForwardRef(WithStyles(ForwardRef(CircularProgress)))
+              className="PrintBoardDialog--spinner"
+              size={25}
+              thickness={7}
+            />
+            <ForwardRef(WithStyles(ForwardRef(Button)))
+              color="primary"
+              disabled={true}
+              onClick={[Function]}
+              variant="contained"
+            >
+              <FormattedMessage
+                defaultMessage="Current Board"
+                id="cboard.components.PrintBoardButton.printCurrentBoard"
+                values={Object {}}
+              />
+            </ForwardRef(WithStyles(ForwardRef(Button)))>
+          </ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+        </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+      </ForwardRef(WithStyles(ForwardRef(List)))>
+    </FullScreenDialogContent>
+  </ForwardRef(WithStyles(ForwardRef(Paper)))>
+</ForwardRef(WithStyles(FullScreenDialog))>
+`;
+
+exports[`PrintBoardDialog tests open dialog 1`] = `
+<ForwardRef(WithStyles(FullScreenDialog))
+  disableSubmit={true}
+  onClose={[Function]}
+  open={true}
+  title="PrintBoardDialog Title"
+>
+  <ForwardRef(WithStyles(ForwardRef(Paper)))>
+    <FullScreenDialogContent
+      className="PrintBoardDialog__container"
+    >
+      <ForwardRef(WithStyles(ForwardRef(List)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+          <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+            primary={
+              <FormattedMessage
+                defaultMessage="Print Board"
+                id="cboard.components.PrintBoardButton.printBoard"
+                values={Object {}}
+              />
+            }
+            secondary={
+              <FormattedMessage
+                defaultMessage="Print current board or full board set (it can take a while)."
+                id="cboard.components.PrintBoardButton.printBoardSecondary"
+                values={Object {}}
+              />
+            }
+          />
+        </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+          <ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+            <ForwardRef(WithStyles(ForwardRef(Button)))
+              color="primary"
+              disabled={false}
+              onClick={[Function]}
+              variant="contained"
+            >
+              <FormattedMessage
+                defaultMessage="Current Board"
+                id="cboard.components.PrintBoardButton.printCurrentBoard"
+                values={Object {}}
+              />
+            </ForwardRef(WithStyles(ForwardRef(Button)))>
+          </ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+        </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+      </ForwardRef(WithStyles(ForwardRef(List)))>
+    </FullScreenDialogContent>
+  </ForwardRef(WithStyles(ForwardRef(Paper)))>
+</ForwardRef(WithStyles(FullScreenDialog))>
+`;

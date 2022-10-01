@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display tests default renderer 1`] = `
+<ForwardRef(WithStyles(FullScreenDialog))
+  onClose={[Function]}
+  onSubmit={[Function]}
+  open={true}
+  title={
+    <FormattedMessage
+      defaultMessage="Display"
+      id="cboard.components.Settings.Display.display"
+      values={Object {}}
+    />
+  }
+>
+  <ForwardRef(WithStyles(ForwardRef(Paper)))
+    className="Display"
+  >
+    <ForwardRef(WithStyles(ForwardRef(List)))>
+      <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+          className="Display__ListItemText"
+          primary={
+            <FormattedMessage
+              defaultMessage="UI Size"
+              id="cboard.components.Settings.Display.uiSize"
+              values={Object {}}
+            />
+          }
+          secondary={
+            <FormattedMessage
+              defaultMessage="Elements size"
+              id="cboard.components.Settings.Display.uiSizeSecondary"
+              values={Object {}}
+            />
+          }
+        />
+        <ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))
+          className="Display__Options"
+        >
+          <ForwardRef(WithStyles(ForwardRef(FormControl)))>
+            <ForwardRef(WithStyles(ForwardRef(Select)))
+              aria-label={
+                Object {
+                  "defaultMessage": "UI Size",
+                  "id": "cboard.components.Settings.Display.uiSize",
+                }
+              }
+              id="uiSize"
+              name="uiSize"
+              onChange={[Function]}
+              value="Standard"
+            >
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                value="Standard"
+              >
+                Object {
+                  "defaultMessage": "Standard",
+                  "id": "cboard.components.Settings.Display.StandardSize",
+                }
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                value="Large"
+              >
+                Object {
+                  "defaultMessage": "Large",
+                  "id": "cboard.components.Settings.Display.LargeSize",
+                }
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                value="ExtraLarge"
+              />
+            </ForwardRef(WithStyles(ForwardRef(Select)))>
+          </ForwardRef(WithStyles(ForwardRef(FormControl)))>
+        </ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+      </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+      <ForwardRef(WithStyles(ForwardRef(Divider))) />
+      <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+          className="Display__ListItemText"
+          primary={
+            <FormattedMessage
+              values={Object {}}
+            />
+          }
+          secondary={
+            <FormattedMessage
+              values={Object {}}
+            />
+          }
+        />
+        <ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))
+          className="Display__Options"
+        >
+          <ForwardRef(WithStyles(ForwardRef(FormControl)))>
+            <ForwardRef(WithStyles(ForwardRef(Select)))
+              id="fontFamily"
+              name="fontFamily"
+              onChange={[Function]}
+              style={
+                Object {
+                  "fontFamily": "Helvetica,Arial,sans-serif",
+                }
+              }
+              value="Cboard Helvetica"
+            >
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                style={
+                  Object {
+                    "fontFamily": "Helvetica,Arial,sans-serif",
+                  }
+                }
+                value="Cboard Helvetica"
+              >
+                Cboard Helvetica
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                style={
+                  Object {
+                    "fontFamily": "Roboto,Helvetica,Arial,sans-serif",
+                  }
+                }
+                value="Roboto"
+              >
+                Roboto
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                style={
+                  Object {
+                    "fontFamily": "Chilanka,cursive",
+                  }
+                }
+                value="Chilanka"
+              >
+                Chilanka
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                style={
+                  Object {
+                    "fontFamily": "Hind",
+                  }
+                }
+                value="Hind"
+              >
+                Hind
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                style={
+                  Object {
+                    "fontFamily": "Nunito,Roboto,Helvetica Neue,Arial,sans-serif",
+                  }
+                }
+                value="Nunito"
+              >
+                Nunito
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                style={
+                  Object {
+                    "fontFamily": "Oswald,sans-serif",
+                  }
+                }
+                value="Oswald"
+              >
+                Oswald
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                style={
+                  Object {
+                    "fontFamily": "Indie Flower,cursive",
+                  }
+                }
+                value="Indie Flower"
+              >
+                Indie Flower
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+            </ForwardRef(WithStyles(ForwardRef(Select)))>
+          </ForwardRef(WithStyles(ForwardRef(FormControl)))>
+        </ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+      </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+      <ForwardRef(WithStyles(ForwardRef(Divider))) />
+      <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+          className="Display__ListItemText"
+          primary={
+            <FormattedMessage
+              defaultMessage="Font Size"
+              id="cboard.components.Settings.Display.fontSize"
+              values={Object {}}
+            />
+          }
+          secondary={
+            <FormattedMessage
+              defaultMessage="App font size"
+              id="cboard.components.Settings.Display.fontSizeSecondary"
+              values={Object {}}
+            />
+          }
+        />
+        <ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))
+          className="Display__Options"
+        >
+          <ForwardRef(WithStyles(ForwardRef(FormControl)))>
+            <ForwardRef(WithStyles(ForwardRef(Select)))
+              aria-label={
+                Object {
+                  "defaultMessage": "Font Size",
+                  "id": "cboard.components.Settings.Display.fontSize",
+                }
+              }
+              id="fontSize"
+              name="fontSize"
+              onChange={[Function]}
+              value="Standard"
+            >
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                value="Standard"
+              >
+                Object {
+                  "defaultMessage": "Standard",
+                  "id": "cboard.components.Settings.Display.StandardSize",
+                }
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                value="Large"
+              >
+                Object {
+                  "defaultMessage": "Large",
+                  "id": "cboard.components.Settings.Display.LargeSize",
+                }
+              </ForwardRef(WithStyles(ForwardRef(MenuItem)))>
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                value="ExtraLarge"
+              />
+            </ForwardRef(WithStyles(ForwardRef(Select)))>
+          </ForwardRef(WithStyles(ForwardRef(FormControl)))>
+        </ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+      </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+      <ForwardRef(WithStyles(ForwardRef(Divider))) />
+      <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+          className="Display__ListItemText"
+          primary={
+            <FormattedMessage
+              values={Object {}}
+            />
+          }
+          secondary={
+            <FormattedMessage
+              values={Object {}}
+            />
+          }
+        />
+        <ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+          <ForwardRef(WithStyles(ForwardRef(Switch)))
+            color="secondary"
+            onChange={[Function]}
+            value="active"
+          />
+        </ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+      </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+      <ForwardRef(WithStyles(ForwardRef(Divider))) />
+      <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+          className="Display__ListItemText"
+          primary={
+            <FormattedMessage
+              values={Object {}}
+            />
+          }
+          secondary={
+            <FormattedMessage
+              values={Object {}}
+            />
+          }
+        />
+        <ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))
+          className="Display__Options"
+        >
+          <ForwardRef(WithStyles(ForwardRef(FormControl)))>
+            <ForwardRef(WithStyles(ForwardRef(Select)))
+              id="labelPosition"
+              name="labelPosition"
+              onChange={[Function]}
+            >
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                value="Above"
+              />
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                value="Below"
+              />
+              <ForwardRef(WithStyles(ForwardRef(MenuItem)))
+                value="Hidden"
+              />
+            </ForwardRef(WithStyles(ForwardRef(Select)))>
+          </ForwardRef(WithStyles(ForwardRef(FormControl)))>
+        </ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+      </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+      <ForwardRef(WithStyles(ForwardRef(Divider))) />
+      <ForwardRef(WithStyles(ForwardRef(ListItem)))>
+        <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+          className="Display__ListItemText"
+          primary={
+            <FormattedMessage
+              values={Object {}}
+            />
+          }
+          secondary={
+            <FormattedMessage
+              values={Object {}}
+            />
+          }
+        />
+        <ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))
+          className="Display__Options"
+        >
+          <ForwardRef(WithStyles(ForwardRef(Switch)))
+            color="secondary"
+            onChange={[Function]}
+            value="active"
+          />
+        </ForwardRef(WithStyles(ForwardRef(ListItemSecondaryAction)))>
+      </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+    </ForwardRef(WithStyles(ForwardRef(List)))>
+  </ForwardRef(WithStyles(ForwardRef(Paper)))>
+</ForwardRef(WithStyles(FullScreenDialog))>
+`;
