@@ -67,7 +67,7 @@ Use this to produce non-minified build for use in debugging within Cordova. It u
 
 ### Translation
 
-<img src="https://support.crowdin.com/assets/logos/crowdin-symbol.png" href="https://crowdin.com/" alt="Crowdin" width="40" height="40">[ Crowdin](https://crowdin.com/) - for providing the localization management platform.
+<img src="https://support.crowdin.com/assets/logos/crowdin-symbol.png" href="https://crowdin.com/" alt="Crowdin" width="40" height="40">
 
 ### Testing platform
 
